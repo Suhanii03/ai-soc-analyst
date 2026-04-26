@@ -64,4 +64,80 @@ With an interactive dashboard built using Streamlit and a secure FastAPI backend
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure 
+```text
+AI-SOC-Analyst/
+│
+├── backend/
+│   ├── api/
+│   ├── services/
+│   └── main.py
+│
+├── frontend/
+│   └── app.py
+│
+├── assets/
+│   └── dashboard.png
+│
+├── requirements.txt
+├── README.md
+└── .gitignore
+``` 
+
+---
+
+## ▶️ Getting Started
+
+### 1️⃣ Clone the repository
+
+```bash
+git clone https://github.com/yourusername/ai-soc-analyst.git
+cd ai-soc-analyst
+```
+
+---
+
+### 2️⃣ Install dependencies
+
+```bash
+pip install -r requirements.txt
+``` 
+--- 
+### 3️⃣ Run backend 
+```bash
+uvicorn backend.main:app --reload 
+``` 
+--- 
+### 4️⃣ Run frontend 
+```bash
+streamlit run frontend/app.py 
+``` 
+--- 
+### 🔑 Login Credentials 
+```bash
+Username: admin  
+Password: admin123 
+``` 
+### 💡 Key Highlights 
+
+Combines rule-based + machine learning detection
+Simulates a real SOC analyst workflow
+Provides both technical and human-readable insights
+Full-stack implementation with secure authentication  
+
+---
+### 🚧 Future Improvements 
+
+Real-time log streaming
+Database integration (SQLite/PostgreSQL)
+Role-based access control
+LLM-powered intelligent querying 
+ 
+ --- 
+ ### 🤝 Contributing
+
+Contributions are welcome! Feel free to fork the repo and submit a pull request. 
+
+⭐ Support
+
+If you like this project, consider giving it a ⭐ on GitHub!
