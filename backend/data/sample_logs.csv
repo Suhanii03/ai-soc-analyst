@@ -1,0 +1,6 @@
+timestamp,ip,user,endpoint,status_code,request_count
+2026-04-24 10:00:01,192.168.1.10,admin,/login,200,1
+2026-04-24 10:00:02,192.168.1.11,guest,/login,401,5
+2026-04-24 10:00:03,192.168.1.11,guest,/login,401,10
+2026-04-24 10:00:04,10.0.0.5,unknown,/api/data,200,2
+2026-04-24 10:00:05,10.0.0.5,unknown,/api/data,200,50
